@@ -272,8 +272,8 @@ function ScheduleModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
           <div className="space-y-4">
             {[
               // { time: "10:00 AM", event: "Registration & Welcome", venue: "Main Lobby" },
-              { time: "11.15 AM", event: "Welcomeing the Guests and Introducing them", venue:"CSE Department (VS210)" },
-              { time: "11:20 AM", event: "Lightning of Lamp", venue: "CSE Department (VS210)" },
+              { time: "11.15 AM", event: "Welcoming the Guests and Introducing Them", venue:"CSE Department (VS210)" },
+              { time: "11:20 AM", event: "Lightning of the Lamp", venue: "CSE Department (VS210)" },
     
               { time: "11:25 AM", event: "Felicitation of Guests", venue: "CSE Department (VS210)" },
               { time: "11:30 AM", event: "Speech by Dr. Supriya Sawwashere (HOD of CSE Dept.)", venue: "CSE Department (VS210)" },
