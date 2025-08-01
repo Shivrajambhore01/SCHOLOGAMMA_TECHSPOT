@@ -255,7 +255,7 @@ function ScheduleModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
                 <Clock className="w-5 h-5 text-cyan-400" />
                 <div>
                   <p className="text-sm text-gray-400">Time</p>
-                  <p className="font-semibold">11:00 AM - 2:00 PM</p>
+                  <p className="font-semibold">02:00 PM - 4:30 PM</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -272,23 +272,23 @@ function ScheduleModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
           <div className="space-y-4">
             {[
               // { time: "10:00 AM", event: "Registration & Welcome", venue: "Main Lobby" },
-              { time: "11.15 AM", event: "Welcoming the Guests and Introducing Them", venue:"CSE Department (VS210)" },
-              { time: "11:20 AM", event: "Lightning of the Lamp", venue: "CSE Department (VS210)" },
+              { time: "02.00 PM", event: "Welcoming the Guests and Introducing Them", venue:"CSE Department (VS210)" },
+              { time: "02:05 PM", event: "Lightning of the Lamp", venue: "CSE Department (VS210)" },
     
-              { time: "11:25 AM", event: "Felicitation of Guests", venue: "CSE Department (VS210)" },
-              { time: "11:30 AM", event: "Speech by Dr. Supriya Sawwashere (HOD of CSE Dept.)", venue: "CSE Department (VS210)" },
-               { time: "11:45 AM", event: "Speech by Dipali Ma'am ", venue: "CSE Department (VS210)" },
-                 { time: "11:50 AM", event: "President Badge", venue: "CSE Department (VS210)" },
-              { time: "12:00 pM", event: "President's Speech", venue: "CSE Department (VS210)" },
-               { time: "12:15 PM", event: "Badges Ceremony", venue: "CSE Department (VS210)" },
-               { time: "12:45 PM", event: "Fun Activity", venue: "CSE Department (VS210)" },
+              { time: "02:10 PM", event: "Felicitation of Guests", venue: "CSE Department (VS210)" },
+              { time: "02:15 PM", event: "Speech by Dr. Supriya Sawwashere (HOD of CSE Dept.)", venue: "CSE Department (VS210)" },
+               { time: "02:30 PM", event: "Speech by Dipali Ma'am ", venue: "CSE Department (VS210)" },
+                 { time: "02:35 PM", event: "President Badge", venue: "CSE Department (VS210)" },
+              { time: "02:45 PM", event: "President's Speech", venue: "CSE Department (VS210)" },
+               { time: "03:00 PM", event: "Badges Ceremony", venue: "CSE Department (VS210)" },
+               { time: "03:30 PM", event: "Fun Activity", venue: "CSE Department (VS210)" },
                
-             { time: "01:15 PM", event: "Award Ceremony", venue: "CSE Department (VS210)" },
-             { time: "01:25 pM", event: "Magazine Display", venue: "CSE Department (VS210)" },
-                { time: "01:30 pM", event: "Website Display", venue: "CSE Department (VS210)" },
+             { time: "04:00 PM", event: "Award Ceremony", venue: "CSE Department (VS210)" },
+             { time: "04:10 PM", event: "Magazine Display", venue: "CSE Department (VS210)" },
+                { time: "04:15 PM", event: "Website Display", venue: "CSE Department (VS210)" },
                    
-                      { time: "01:40 PM", event: "Vote of Thanks by vice President", venue: "CSE Department (VS210)" },
-                          { time: "01:45 PM", event: "National Anthem", venue: "CSE Department (VS210)" },
+                      { time: "04:25 PM", event: "Vote of Thanks by vice President", venue: "CSE Department (VS210)" },
+                          { time: "04:30 PM", event: "National Anthem", venue: "CSE Department (VS210)" },
             ].map((item, index) => (
               <div key={index} className="flex items-center space-x-4 p-3 bg-slate-900/30 rounded-lg">
                 <div className="w-20 text-cyan-400 font-semibold text-sm">{item.time}</div>
@@ -681,7 +681,7 @@ export default function SchologammaInstallation() {
                 {
                   icon: <Calendar className="w-6 h-6 text-white" />,
                   title: "Date & Time",
-                  description: "Augest 02, 2025 | 11:00 AM - 2:00 PM",
+                  description: "Augest 02, 2025 | 02:00 PM - 4:30 PM",
                   gradient: "from-cyan-400 to-blue-500",
                 },
                 {
